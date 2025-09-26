@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Philosophy in Games – Persona</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="explore.html" aria-current="page">Persona</a>
+<a href="examples.html">Expedition 33</a>
+<a href="about.html">About</a>
+</nav>
+</header>
+
+
+<main class="container">
+<h1>The Persona Series: Identity and the Social Self</h1>
+
+
+<section class="grid">
+<article class="card">
+<h2>Masks &amp; Selves</h2>
+<p><strong>Core idea:</strong> We wear masks to navigate society. The series literalizes this with Personae—facets of the psyche we summon. Titles like <cite>Persona 3</cite>, <cite>Persona 4</cite>, and <cite>Persona 5</cite> reimagine selfhood as a system you actively shape.</p>
+</article>
+
+
+<article class="card">
+<h2>Jungian Roots</h2>
+<p>Key terms—<ruby lang="ja">シャドウ<rt>shadow</rt></ruby>, <ruby lang="ja">アルカナ<rt>arcana</rt></ruby>—connect mechanics to archetypes. Confronting a Shadow dramatizes integration: accepting disowned traits to become whole.</p>
+</article>
+
+
+<article class="card">
+<h2>Ethics of Community</h2>
+<p>Social Links/Confidants turn relationships into a practice of virtue: trust, reciprocity, and responsibility. Progress isn’t just stats—it’s learning how to be with others.</p>
+</article>
+
+
+<article class="card">
+<h2>Everyday Life as Philosophy</h2>
+<p>Time management raises questions of the good life: what deserves your limited days? Play itself becomes an ethics of attention.</p>
+</article>
+</section>
+
+
+<!-- UNIQUE ATTRIBUTE: ping on <a> to demonstrate analytics pings on external reads (placeholder URL). -->
+<p class="note">Further reading:
+<a href="https://iep.utm.edu/jung-psyc/" ping="https://analytics.example/ping" target="_blank" rel="noopener">Intro to Jungian Psychology</a>
+</p>
+</main>
+
+
+<footer class="site-footer">
+<small>&copy; 2025 Your Name</small>
+</footer>
+</body>
+</html>
