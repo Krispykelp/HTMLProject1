@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Philosophy in Games – Expedition 33</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="explore.html">Persona</a>
+<a href="examples.html" aria-current="page">Expedition 33</a>
+<a href="about.html">About</a>
+</nav>
+</header>
+
+
+<main class="container">
+<h1>Expedition 33: Pilgrimage and Purpose</h1>
+
+
+<section class="card">
+<h2>Journey as Meaning‑Making</h2>
+<p>Expeditions are rituals of becoming: movement across space reflects movement within. The game’s premise invites questions about duty, remembrance, and hope.</p>
+</section>
+
+
+<section class="card">
+<h2>Time, Ritual, and Community</h2>
+<p>Recurring journeys bind people together. Pilgrimage asks: What do we owe to the past, and how do we carry that into the future?</p>
+</section>
+
+
+<!-- UNIQUE ATTRIBUTE: formaction on a submit control to show alternate interpretations/routes.
+This is a neutral demo—no backend. It illustrates per‑button routing. -->
+<section class="card">
+<h2>Choose a reading</h2>
+<form action="/reading-default" method="get">
+<label for="lens">Interpretive lens:</label>
+<select id="lens" name="lens">
+<option value="virtue">Virtue ethics</option>
+<option value="existential">Existentialism</option>
+<option value="communitarian">Communitarian</option>
+</select>
+<div class="actions">
+<button type="submit">View default reading</button>
+<!-- UNIQUE ATTRIBUTE: overrides the form action for this submit button -->
+<button type="submit" formaction="/reading-alternative">View alternative reading</button>
+</div>
+<p class="note">This demonstrates <code>formaction</code> changing the destination per button.</p>
+</form>
+</section>
+
+
+<section class="card">
+<h2>Works to compare</h2>
+<p>Consider adjacent titles: <cite>Journey</cite>, <cite>Death Stranding</cite>, and <cite>Shadow of the Colossus</cite>—each treats travel as transformation.</p>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<small>&copy; 2025 Your Name</small>
+</footer>
+</body>
+</html>
