@@ -1,55 +1,77 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Philosophy in Games – Home</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Philosophy in Games — Home</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <noscript><style>.js-only{display:none}</style></noscript>
+  <script src="assets/script.js" defer></script>
 </head>
 <body>
-<header class="site-header">
-<nav class="nav">
-<a href="index.html" aria-current="page">Home</a>
-<a href="explore.html">Persona</a>
-<a href="examples.html">Expedition 33</a>
-<a href="about.html">About</a>
-</nav>
-</header>
+  <header class="site-header">
+    <h1>Philosophy in Games</h1>
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="persona.html" ping="sources.html">Persona 3–5</a></li>
+        <li><a href="expedition33.html" ping="sources.html">Expedition 33</a></li>
+        <li><a href="sources.html">Sources</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main class="container">
+    
+    <section class="card intro" aria-labelledby="intro-title">
+    <h2 id="intro-title">Why these games?</h2>
+    <p class="lead">
+      This site explores how certain games use psychology and philosophy to ask
+      big questions—identity, memory, ritual, and moral agency. Start with a quick
+      overview, then dive into the case studies below.
+    </p>
+    <p>
+        Persona <ruby>mask<rt>guānmiàn</rt></ruby>, while <cite>Jung</cite> frames it as a social role.
+    </p>
+    <div class="intro-actions">
+      <a class="btn" href="sources.html">View core readings</a>
+      <a class="btn ghost" href="persona.html">Jump to Persona</a>
+    </div>
+  </section>
+    
+    <section class="grid-two">
+     <article class="card card-body persona">
+        <img src="assets/images/persona.jpg" alt="Persona promotional silhouette"
+             loading="lazy" referrerpolicy="no-referrer" ismap />
+        <h2>Persona Series</h2>
+        <p>From bonds to social cognition, the trilogy explores the self and society.</p>
+        <form>
+            <button type="submit" class="btn" formaction="Persona.html">
+            Seek the Truth
+        </button>
+        </form>
+        </article>
 
-<main class="container">
-<h1>Philosophy in Games</h1>
-<p>This mini‑site explores how select games weave philosophical ideas into mechanics, characters, and world‑building. We focus on the <cite>Persona</cite> series and the forthcoming <cite>Expedition 33</cite>, highlighting identity, ethics, and meaning.</p>
+      <article class="card card-body expedition">
+        <img src="assets/images/expedition33.jpg" alt="Expedition 33 concept art" loading="lazy" />
+        <h2>Expedition 33</h2>
+        <p>Ritual, memory, and fate in a cyclical world—on trauma and renewal.</p>
+        <form>
+          <button type="submit" class="btn" formaction="expedition33.html">"For those who come after"</button>
+        </form>
+      </article>
+    </section>
 
+    <section class="card">
+      <h3>Language Demo</h3>
+      <p>
+        Persona <ruby>mask<rt>guānmiàn</rt></ruby>, while <cite>Jung</cite> frames it as a social role.
+      </p>
+      <noscript><p>Please enable JavaScript for interactive features.</p></noscript>
+    </section>
+  </main>
 
-<!-- UNIQUE ELEMENT: <ruby> to annotate a non‑Latin term central to the theme; comment explains why/what/how. -->
-<section class="card">
-<h2>Why philosophy belongs in play</h2>
-<p>Games let us <em>inhabit</em> questions: the self, choice, and community. In <ruby lang="ja" title="Pronounced: persona">ペルソナ<rt>persona</rt></ruby>, Jungian ideas become mechanics; in <cite>Expedition 33</cite>, pilgrimage frames purpose.</p>
-</section>
-
-
-<!-- UNIQUE ATTRIBUTE: ismap on <img> within a link (server‑side image map demo).
-Clicking sends x,y to /map (demo only). Shows awareness of classic HTML features. -->
-<section class="card">
-<h2>Map of ideas</h2>
-<p>Click the diagram to "jump" to thematic regions (demo):</p>
-<a href="/map">
-<img src="assets/philosophy-map.png" alt="Concept map linking identity, ethics, community" ismap>
-</a>
-<p class="note">Demonstrates <code>ismap</code>; no backend is implemented.</p>
-</section>
-
-
-<!-- UNIQUE ELEMENT: <noscript> explains progressive enhancement to the grader. -->
-<noscript class="noscript-box">
-<p><strong>JavaScript is off.</strong> Any enhancements are optional—the core analysis and examples remain fully readable.</p>
-</noscript>
-</main>
-
-
-<footer class="site-footer">
-<small>&copy; 2025 Your Name</small>
-</footer>
+  <footer class="site-footer">
+    <p>Kris Sy COMP 484 HTML Project 1 <span id="year"></span> <a href="sources.html">Sources &amp; further reading</a>.</p>
+  </footer>
 </body>
 </html>
