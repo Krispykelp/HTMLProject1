@@ -10,7 +10,10 @@
 </head>
 <body>
   <header class="site-header">
-    <h1>The Persona Series</h1>
+<div class="header-block">
+  <h1>The Persona Series</h1>
+  <p class="tagline"><em>“We forge our true selves through the bonds we share.”</em></p>
+</div>
     <nav aria-label="Primary">
       <ul class="nav">
         <li>
@@ -26,7 +29,6 @@
   </header>
 
   <main class="container">
-    <section class="grid-three">
       <article class="card card-body">
         <img src="assets/images/p3.jpg" alt="Persona 3" loading="lazy" />
         <h2>Persona 3 — Memento Mori</h2>
@@ -44,7 +46,6 @@
         <h2>Persona 5 — Society & Rebellion</h2>
         <p>Structures of power, consent, and moral agency within unjust systems.</p>
       </article>
-    </section>
 
     <section class="card">
       <h3>Key Motifs</h3>
@@ -59,7 +60,18 @@
   </main>
 
   <footer class="site-footer">
-    <p><a href="index.html">← Back to Home</a></p>
-  </footer>
+  <p>
+    Kris Sy COMP 484 HTML Project 1 <span id="year"></span>
+    <a href="sources.html">Sources &amp; further reading</a>.
+  </p>
+</footer>
+
+<style>
+  .site-footer {
+    text-align: center;
+    padding: 1rem;
+  }
+</style>
+
 </body>
 </html>

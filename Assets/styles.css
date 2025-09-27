@@ -45,6 +45,22 @@ a:hover{color: var(--brand-strong); text-decoration: underline}
   .home-grid .expedition{ grid-area:expedition }
 }
 
+.header-block {
+  text-align: center;
+  margin-bottom: 1.5rem; /* space before nav buttons */
+}
+
+.tagline {
+  font-size: 1.1rem;       /* slightly smaller than header */
+  font-style: italic;      /* keep the italics */
+  font-weight: 300;        /* lighter weight for a tagline feel */
+  color: var(--muted);     /* softer color than main header */
+  margin-top: 0.3rem;      /* tuck it closer to the header */
+  margin-bottom: 1.2rem;   /* add space before nav buttons */
+  text-align: center;      /* tagline sits centered under header */
+  letter-spacing: 0.5px;   /* subtle spacing for elegance */
+}
+
 /* Intro card */
 .intro{
   padding: 1.25rem 1.25rem 1rem;
