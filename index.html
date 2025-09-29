@@ -13,10 +13,12 @@
   <div class="container header-bar">
     <h1 class="site-title">Analyzing The Human Condition within Games</h1>
 
+    <!-- The nav landmark helps screen readers; aria-label gives it a human name -->
     <nav class="site-nav" aria-label="Primary">
       <ul class="nav">
         <li>
-          <form>
+          <form> <!-- formaction overrides the <form> action for THESE buttons only
+                      applied to header / nav buttons -->
             <button type="submit" class="btn" formaction="Persona.html">Persona</button>
             <button type="submit" class="btn" formaction="Expedition33.html">Expedition 33</button>
             <button type="submit" class="btn" formaction="Sources.html">Sources</button>
@@ -70,8 +72,8 @@
          alt="Expedition 33 concept art"
          class="card-image"
          loading="lazy" />
-
-    <p>Expedition 33 is a narrative-driven tactical RPG that delves into the mystery of the Expeditions, the Paintress, and the <ruby>Gommage<rt>Erasure</rt></ruby>.
+      <!-- <ruby> displays an annotation for inline text (e.g., pronunciation or translation) <rt> is the annotation; <rp> provides fallback parentheses for very old browsers. -->
+    <p>Expedition 33 is a narrative-driven tactical RPG that delves into the mystery of the Expeditions, the Paintress, and the <ruby>Gommage<rt>Erasure</rt></ruby>. 
       Within the world of Clair Obscur, the people are faced with death from the Paintress, who each year winds down the clock from 100—marking the oldest age anyone can reach before their Gommage. 
       The annual Gommage shapes the lives and destinies of all, as the threat of erasure looms over every generation.
       This dread of inevitable death is a central theme that permeates the game, influencing the culture and psyche of its inhabitants.
